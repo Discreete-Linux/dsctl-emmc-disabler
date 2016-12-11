@@ -1,0 +1,5 @@
+1b7e3ba39e9068f89726002bbe877fe2  bin/emmc-disabler.py
+8d6b6d69d1d6369ae47b5d93cd7a3788  lib/systemd/system/dsctl-emmc-disabler.service
+40f925b0e54f81d87f8ab6b815b855da  usr/share/doc/dsctl-emmc-disabler/README.Debian
+1f0d5fd728144b608b201ef1aff34e28  usr/share/doc/dsctl-emmc-disabler/changelog.gz
+d7c161ba21833c3f703edc6231782609  usr/share/doc/dsctl-emmc-disabler/copyright

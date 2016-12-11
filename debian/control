@@ -1,0 +1,17 @@
+Source: dsctl-emmc-disabler
+Section: utils
+Priority: optional
+Maintainer: Discreete Linux Team <info@discreete-linux.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://www.discreete-linux.org
+
+
+Package: dsctl-emmc-disabler
+Architecture: all
+Depends: ${misc:Depends}
+Description: Disable internale eMMC cards
+ Extends the security feature of Discreete Linux to disable
+ internal hard disks to internal eMMC cards, which are
+ usually not powered by libata but by the sdhci-ahci driver.
+ Useful only within Discreete Linux.

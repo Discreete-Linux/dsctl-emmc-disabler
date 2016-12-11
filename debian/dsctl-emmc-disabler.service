@@ -1,0 +1,9 @@
+[Unit]
+Description=Detect and disable internal eMMC cards
+
+[Service]
+Type=oneshot
+ExecStart=/bin/emmc-disabler.py
+
+[Install]
+WantedBy=multi-user.target
